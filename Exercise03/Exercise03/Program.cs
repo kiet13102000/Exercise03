@@ -159,6 +159,7 @@ namespace Exercise03
             Console.WriteLine();
             // the last
             vehangngang(2 * n - 1, c);
+
         }
 
     }
