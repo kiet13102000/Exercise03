@@ -8,6 +8,7 @@ namespace Exercise03
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("heloo every body");
+            Console.WriteLine("xinchaom.n");
         }
     }
 }
