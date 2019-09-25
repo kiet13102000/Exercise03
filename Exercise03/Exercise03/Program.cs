@@ -6,9 +6,7 @@ namespace Exercise03
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("heloo every body");
-            Console.WriteLine("xinchaom.n");
+           
         }
     }
 }
