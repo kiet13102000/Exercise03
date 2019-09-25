@@ -161,6 +161,11 @@ namespace Exercise03
             vehangngang(2 * n - 1, c);
 
         }
+        static void chuN(int n , char c)
+        {
+            veduongcheo(n, c);
+
+        }
 
     }
 }
