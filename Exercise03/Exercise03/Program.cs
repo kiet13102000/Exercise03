@@ -17,7 +17,7 @@ namespace Exercise03
             vehangdoc(10, 'a');
             veduongcheo(10, '*');
             tamgiac(4, '*');
-
+            chuN(4, '*');
         }
         static void write()
         {
@@ -136,10 +136,10 @@ namespace Exercise03
                 {
                     if (i == j)
                     {
-                        Console.Write("a");
+                        Console.Write(a);
                     }
                     else
-                        Console.Write("-");
+                        Console.Write(" ");
                 }
                 Console.WriteLine();
 
@@ -147,23 +147,28 @@ namespace Exercise03
         }
         static void tamgiac(int n , char c)
         {
-            // the fist
-            vehangngang(n-1, ' ');
-            vehangngang(1, c);
-            Console.WriteLine();
-            // the secone
-            vehangngang(n - 2, ' '); vehangngang(n - 3, c); vehangngang(n - 3, ' '); vehangngang(n - 3, c);
-            Console.WriteLine();
-            // the three
-            vehangngang(n - 3, ' '); vehangngang(n - 3, c); vehangngang(n - 1, ' '); vehangngang(n - 3, c);
-            Console.WriteLine();
-            // the last
-            vehangngang(2 * n - 1, c);
-
+        
+                // the fist
+                vehangngang(n - 1, ' ');
+                vehangngang(1, c);
+                Console.WriteLine();
+                // the secone
+                vehangngang(n - 2, ' '); vehangngang(n - 3, c); vehangngang(n - 3, ' '); vehangngang(n - 3, c);
+                Console.WriteLine();
+                // the three
+                vehangngang(n - 3, ' '); vehangngang(n - 3, c); vehangngang(n - 1, ' '); vehangngang(n - 3, c);
+                Console.WriteLine();
+                // the last
+                vehangngang(2 * n - 1, c);
+             
+            
         }
-        static void chuN(int n , char c)
+        static void chuN(int n, char c)
         {
-            veduongcheo(n, c);
+            for (int i = 0; i < n - 1; i++)
+            {
+
+            }
 
         }
 
